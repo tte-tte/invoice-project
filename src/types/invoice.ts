@@ -51,3 +51,21 @@ export interface CreateInvoiceFormValues {
   notes?: string;
   terms?: string;
 }
+
+export interface UpdateInvoiceFormValues {
+  customerName?: string;
+
+  invoiceDate?: string;
+  dueDate?: string;
+
+  currency?: Currency;
+
+  lineItems?: Array<{
+    description: string;
+    quantity: number;
+    unitPrice: number;
+  }>;
+
+  notes?: string;
+  terms?: string;
+} 

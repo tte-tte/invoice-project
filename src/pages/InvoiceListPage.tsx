@@ -192,7 +192,7 @@ export function InvoiceListPage() {
           className="primary-button"
         >
 
-          <Plus size={15} />
+          <Plus size={17} />
 
           New Invoice
 
@@ -269,7 +269,7 @@ export function InvoiceListPage() {
 
           <div className="filter-search">
 
-            <Search size={15} />
+            <Search size={17} />
 
             <input
               value={query}
