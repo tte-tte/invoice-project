@@ -82,7 +82,7 @@ export const invoices: Invoice[] = [
       {
         id: "3-1",
         description: "Software Development",
-        quantity: 3,
+        quantity: 4,
         unitPrice: 800,
       },
     ],
