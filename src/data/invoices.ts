@@ -88,3 +88,5 @@ export const invoices: Invoice[] = [
     ],
   },
 ];
+
+export const AdminName : string = "David Willems";

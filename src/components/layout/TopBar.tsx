@@ -3,6 +3,7 @@ import {
   ChevronDown,
   Search,
 } from "lucide-react";
+import { AdminName } from "../../data/invoices";
 
 export function Topbar() {
   return (
@@ -32,13 +33,13 @@ export function Topbar() {
         <div className="profile">
 
           <div className="avatar">
-            SJ
+            {AdminName.split(" ").map((name) => name[0])}
           </div>
 
           <div>
 
             <strong>
-              Sarah Jenkins
+              {AdminName}
             </strong>
 
             <span>
