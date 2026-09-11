@@ -14,7 +14,7 @@ const navItems = [
   {
     label: "Dashboard",
     icon: Grid2X2,
-    to: "/invoices",
+    to: "dashboard",
   },
 
   {
@@ -81,7 +81,7 @@ export function Sidebar() {
               to={to}
               className={({ isActive }) =>
                 `sidebar-link ${
-                  isActive && label === "Invoices"
+                  isActive && label === "Invoices" 
                     ? "active"
                     : ""
                 }`

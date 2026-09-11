@@ -5,6 +5,7 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { InvoiceListPage } from "./pages/InvoiceListPage";
 import { CreateInvoicePage } from "./pages/CreateInvoicePage";
 import { InvoiceDetailsPage } from "./pages/InvoiceDetailsPage";
+import Dashboard from "./components/dashboard/Dashboard";
 
 export default function App() {
   return (
@@ -28,6 +29,11 @@ export default function App() {
         <Route
           path="/invoices/:id"
           element={<InvoiceDetailsPage />}
+        />
+
+        <Route 
+          path="/dashboard" 
+          element={<Dashboard />} 
         />
       </Route>
     </Routes>
