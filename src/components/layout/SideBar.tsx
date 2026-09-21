@@ -14,7 +14,7 @@ const navItems = [
   {
     label: "Dashboard",
     icon: Grid2X2,
-    to: "dashboard",
+    to: "/dashboard",
   },
 
   {
@@ -79,12 +79,9 @@ export function Sidebar() {
             <NavLink
               key={label}
               to={to}
+              end={to === "/dashboard"}
               className={({ isActive }) =>
-                `sidebar-link ${
-                  isActive && label === "Invoices" 
-                    ? "active"
-                    : ""
-                }`
+                `sidebar-link ${isActive ? "active" : ""}`
               }
             >
               <Icon size={16} />
