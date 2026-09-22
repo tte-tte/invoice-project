@@ -5,6 +5,7 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { InvoiceListPage } from "./pages/InvoiceListPage";
 import { CreateInvoicePage } from "./pages/CreateInvoicePage";
 import { InvoiceDetailsPage } from "./pages/InvoiceDetailsPage";
+import { ClientsPage } from "./pages/ClientsPage";
 import Dashboard from "./components/dashboard/Dashboard";
 
 export default function App() {
@@ -31,9 +32,14 @@ export default function App() {
           element={<InvoiceDetailsPage />}
         />
 
-        <Route 
+        <Route
           path="/dashboard" 
           element={<Dashboard />} 
+        />
+
+        <Route
+          path="/clients"
+          element={<ClientsPage />}
         />
       </Route>
     </Routes>

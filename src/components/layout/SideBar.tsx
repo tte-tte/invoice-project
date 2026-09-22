@@ -26,7 +26,7 @@ const navItems = [
   {
     label: "Clients",
     icon: Users,
-    to: "/invoices",
+    to: "/clients",
   },
 ];
 
