@@ -93,7 +93,7 @@ const Dashboard = () => {
     {
       title: "Total Invoices",
       value: String(summary.totalInvoices),
-      change: "+4 this month",
+      change: "+3 this month",
       positive: true,
       icon: FileText,
     },
