@@ -236,7 +236,7 @@ const Dashboard = () => {
               <div className="donut">
                 <svg viewBox="0 0 100 100" className="donut-svg" aria-label="Invoice status donut chart">
                   <circle cx="50" cy="50" r="38" fill="none" stroke="#edf2f7" strokeWidth="13" />
-                  <circle cx="50" cy="50" r="38" fill="none" stroke="#10b981" strokeWidth="13" strokeDasharray="150 239" strokeLinecap="round" />
+                  <circle cx="50" cy="49" r="38" fill="none" stroke="#10b981" strokeWidth="13" strokeDasharray="150 239" strokeLinecap="round" />
                   <circle cx="50" cy="50" r="38" fill="none" stroke="#fbbf24" strokeWidth="13" strokeDasharray="50 239" strokeDashoffset="-150" strokeLinecap="round" />
                   <circle cx="50" cy="50" r="38" fill="none" stroke="#f87171" strokeWidth="13" strokeDasharray="35 239" strokeDashoffset="-200" strokeLinecap="round" />
                 </svg>
